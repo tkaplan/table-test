@@ -1,0 +1,90 @@
+/* Base Application Styles */
+body {
+  color: #222;
+  background: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 20px;
+  min-width: 300px;
+}
+
+thead {
+  font-weight: 500;
+}
+
+tbody {
+  font-weight: 300;
+}
+
+tr:nth-child(odd) {
+  background: #eee;
+}
+
+tr:hover {
+  cursor: pointer;
+  background: #ddd;
+}
+
+table tr:last-child td:first-child {
+    border-bottom-left-radius: 2px;
+}
+
+table tr:last-child td:last-child {
+    border-bottom-right-radius: 2px;
+}
+
+td {
+  border: 1px solid rgba(78,78,78,1);
+  padding: 20px;
+}
+
+span.filter {
+  position: relative;
+  top: -4px;
+  margin-left: 20px;
+  color: #786AA2;
+}
+
+div.checkbox {
+  height: 21px;
+  width: 21px;
+  border: 1px solid #786AA2;
+  border-radius: 2px;
+  display: inline-block;
+  line-height: 20px;
+}
+
+div.inner-checkbox {
+  height: 15px;
+  width: 15px;
+  background: #786AA2;
+  position: relative;
+  top: 3px;
+  margin: auto;
+  border-radius: 2px;
+}
+
+div.filter {
+  padding-top: 20px;
+  padding-left: 18px;
+  line-height: 20px;
+}
+
+.index img {
+  margin: 40px auto;
+  border-radius: 4px;
+  background: #fff;
+  display: block;
+}
+
+.index .notice {
+  margin: 20px auto;
+  padding: 15px 0;
+  text-align: center;
+  border: 1px solid #000;
+  border-width: 1px 0;
+  background: #666;
+}
